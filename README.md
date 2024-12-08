@@ -1,4 +1,4 @@
-Welcome to your new dbt project!
+Welcome to my dbt project! This project utilized dbt to transform and load Northwind database from data lake to staging layer and dimensional data warehouse layer. Then the tables in data warehouse layer are complied into One Big Table (OBT) for easier analytics. All data are stored in Google BigQuery.
 
 ### Using the starter project
 
