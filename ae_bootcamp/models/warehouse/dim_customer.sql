@@ -18,7 +18,7 @@ with source as (
         web_page,
         notes,
         attachments,
-        current_timestamp() as ingestion_timestamp,
+        current_timestamp() as ingestion_timestamp, 
     from {{ref('stg_customer')}}
 ),
 
