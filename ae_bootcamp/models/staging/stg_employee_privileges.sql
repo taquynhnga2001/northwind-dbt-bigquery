@@ -3,5 +3,7 @@ with source as (
     from {{source('northwind', 'employee_privileges')}}
 )
 
-select *
+select
+    *,
+    current_timestamp() as ingestion_timestamp
 from source
